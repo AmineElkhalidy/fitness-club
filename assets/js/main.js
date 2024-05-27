@@ -111,13 +111,13 @@ const calculateBmi = (e) => {
     // Show your health status
     if (bmi < 18.5) {
       // Add color and display message
-      calculateMessage.classList.add("color-green");
+      calculateMessage.classList.add("color-yellow");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are skinny 😔`;
     } else if (bmi < 25) {
       calculateMessage.classList.add("color-green");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are healthy 🥳`;
     } else {
-      calculateMessage.classList.add("color-green");
+      calculateMessage.classList.add("color-red");
       calculateMessage.textContent = `Your BMI is ${bmi} and you are overweight 😐`;
     }
 

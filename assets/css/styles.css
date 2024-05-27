@@ -160,6 +160,10 @@ img {
   color: var(--first-color);
 }
 
+.color-yellow {
+  color: hsl(56, 100%, 50%);
+}
+
 /*=============== HEADER & NAV ===============*/
 .header {
   width: 100%;
