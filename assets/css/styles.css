@@ -615,6 +615,10 @@ img {
   font-size: var(--h1-font-size);
 }
 
+.pricing__number span {
+  font-size: var(--normal-font-size);
+}
+
 .pricing__list {
   row-gap: 1rem;
 }
