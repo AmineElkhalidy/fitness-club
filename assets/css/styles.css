@@ -838,6 +838,19 @@ img {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+
+.footer__copy-developer {
+  color: var(--first-color);
+  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -ms-transition: color 0.3s;
+  -o-transition: color 0.3s;
+}
+
+.footer__copy-developer:hover {
+  color: var(--first-color-dark);
+}
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: 0.6rem;
