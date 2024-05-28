@@ -841,6 +841,7 @@ img {
 .footer__copy {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
+  text-align: center;
 }
 
 .footer__copy-developer {
