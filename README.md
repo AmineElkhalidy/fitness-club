@@ -2,5 +2,5 @@
 
 ### Transform your fitness journey with us!
 
-![Landing Page](/assets/img/zfc.png)
-![Banner](/assets/img/banner.png)
+![Landing Page](/assets/img/zfc.webp)
+![Banner](/assets/img/banner.webp)
