@@ -39,26 +39,22 @@
     <meta property="og:locale" content="en_US" />
     <meta property="article:author" content="Amine Elkhalidy" />
 
-    <!--=============== FAVICON ===============-->
     <link
       rel="shortcut icon"
       href="assets/img/favicon.png"
       type="image/x-icon"
     />
 
-    <!--=============== REMIXICON ===============-->
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
 
-    <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
     <title>ZFC | Zouhair Fitness Club</title>
   </head>
   <body>
-    <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">
@@ -103,7 +99,6 @@
       </nav>
     </header>
 
-    <!--==================== MAIN ====================-->
     <main class="main">
       <!--==================== HOME ====================-->
       <section class="home section" id="home">
@@ -251,7 +246,7 @@
 
               <div class="choose__data">
                 <div class="choose__group">
-                  <h3 class="choose__number">70+</h3>
+                  <h3 class="choose__number">50+</h3>
                   <p class="choose__subtitle">Total Members</p>
                 </div>
                 <div class="choose__group">
@@ -297,7 +292,7 @@
           </div>
 
           <div class="pricing__container grid">
-            <article class="pricing__card">
+            <article class="pricing__card" id="basic">
               <header class="pricing__header">
                 <div class="pricing__shape">
                   <img
@@ -336,7 +331,7 @@
               ></a> -->
             </article>
 
-            <article class="pricing__card">
+            <article class="pricing__card" id="premium">
               <header class="pricing__header">
                 <div class="pricing__shape">
                   <img
@@ -375,7 +370,7 @@
               ></a> -->
             </article>
 
-            <article class="pricing__card pricing__card-active">
+            <article class="pricing__card pricing__card-active" id="diamond">
               <header class="pricing__header">
                 <div class="pricing__shape">
                   <img
@@ -471,7 +466,6 @@
       </section>
     </main>
 
-    <!--==================== FOOTER ====================-->
     <footer class="footer section" id="footer">
       <div class="footer__container container grid">
         <div>
@@ -524,13 +518,13 @@
 
             <ul class="footer__links">
               <li>
-                <a href="" class="footer__link">Basic</a>
+                <a href="#basic" class="footer__link">Basic</a>
               </li>
               <li>
-                <a href="" class="footer__link">Premium</a>
+                <a href="#premium" class="footer__link">Premium</a>
               </li>
               <li>
-                <a href="" class="footer__link">Diamond</a>
+                <a href="#diamond" class="footer__link">Diamond</a>
               </li>
             </ul>
           </div>
@@ -595,15 +589,12 @@
       </div>
     </footer>
 
-    <!--========== SCROLL UP ==========-->
     <a href="#" class="scrollup" id="scroll-up">
       <i class="ri-arrow-up-line"></i>
     </a>
 
-    <!--=============== SCROLLREVEAL ===============-->
     <script src="assets/js/scrollreveal.min.js"></script>
 
-    <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
